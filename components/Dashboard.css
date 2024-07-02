@@ -1,0 +1,27 @@
+/* Dashboard.css */
+.dashboard-bg {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy6iA_Fof212IZqsxz0BlD54Ko8CnizkMckQ&s'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .dashboard-card {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  

@@ -1,0 +1,9 @@
+/* Navbar.css */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+  

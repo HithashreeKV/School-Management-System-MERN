@@ -1,0 +1,34 @@
+/* Home.css */
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the whole area */
+  z-index: -1; /* Place the image behind the content */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white; /* Make text color white for better readability */
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
